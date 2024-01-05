@@ -8,7 +8,6 @@ Then, in a separate terminal, generate samples
 
 
 import base64
-import os
 import sys
 import requests
 import glob
@@ -74,7 +73,7 @@ def main():
         sizing_strategy="input_image",
         controlnet_1="edge_canny",
         controlnet_1_image="https://replicate.delivery/pbxt/gixujfS8h0Q5MyBjEQ1ABVeeHJgs2wcQqZUeEhblne9ntkNOC/out-0.png",
-        image="https://replicate.delivery/pbxt/zIPS4uyGONKvKBg9iTA6FRC785eK7eWhpewpR7W0RnF9rlniA/out-0.png"
+        image="https://replicate.delivery/pbxt/zIPS4uyGONKvKBg9iTA6FRC785eK7eWhpewpR7W0RnF9rlniA/out-0.png",
     )
 
     gen(
@@ -87,7 +86,7 @@ def main():
         sizing_strategy="controlnet_1_image",
         controlnet_1="edge_canny",
         controlnet_1_image="https://replicate.delivery/pbxt/gixujfS8h0Q5MyBjEQ1ABVeeHJgs2wcQqZUeEhblne9ntkNOC/out-0.png",
-        image="https://replicate.delivery/pbxt/zIPS4uyGONKvKBg9iTA6FRC785eK7eWhpewpR7W0RnF9rlniA/out-0.png"
+        image="https://replicate.delivery/pbxt/zIPS4uyGONKvKBg9iTA6FRC785eK7eWhpewpR7W0RnF9rlniA/out-0.png",
     )
 
     gen(

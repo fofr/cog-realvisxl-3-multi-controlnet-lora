@@ -1,10 +1,10 @@
-# cog-sdxl-multi-controlnet-lora
+# RealVisXL V3.0 with multi ControlNet and custom Loras
 
-https://replicate.com/fofr/sdxl-multi-controlnet-lora
+https://replicate.com/fofr/realvisxl-v3-multi-controlnet-lora
 
-[![Replicate demo and cloud API](https://replicate.com/fofr/sdxl-multi-controlnet-lora/badge)](https://replicate.com/fofr/sdxl-multi-controlnet-lora)
+[![Replicate demo and cloud API](https://replicate.com/fofr/realvisxl-v3-multi-controlnet-lora/badge)](https://replicate.com/fofr/realvisxl-v3-multi-controlnet-lora)
 
-SDXL with:
+RealVis XL V3.0 with:
 
 - img2img
 - inpainting
